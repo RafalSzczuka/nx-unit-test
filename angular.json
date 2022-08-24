@@ -2,6 +2,9 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "landing-page": "apps/landing-page",
+    "landing-page-e2e": "apps/landing-page-e2e",
+    "ui": "libs/ui",
     "unit-tested-app": "apps/unit-tested-app",
     "unit-tested-app-e2e": "apps/unit-tested-app-e2e"
   }
